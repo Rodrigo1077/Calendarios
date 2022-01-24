@@ -1,0 +1,82 @@
+body {
+    background-color: lightblue;
+    font-family: sans-serif;
+}
+
+section {
+    background-color: lightyellow;
+    border: black 1px solid;
+    padding: 10px 30px;
+    margin: 10px;
+    width: 50%;
+}
+
+section.enero table {
+    border-collapse: collapse;
+    text-align: center;
+}
+
+section.enero caption {
+    font-style: oblique;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+section.enero th,td {
+    width: 3em;
+    border-bottom: solid black 1px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section.febrero caption {
+    text-align: right;
+    font-weight: bold;
+}
+
+section.febrero table {
+    text-align: right;
+    border-collapse: collapse;
+}
+
+section.febrero th {
+    padding-right: 5px;
+    border-right: black solid 1px;
+    border-left: black solid 1px;
+}
+
+section.febrero td {
+    border-right: black solid 1px;
+    border-left: black solid 1px;
+    border-bottom: none;
+    font-size: 150%;
+    padding-right: 5px;
+    width: 1.5em;
+}
+
+section.marzo table {
+    border-collapse: collapse;
+    text-align: left;
+}
+
+section.marzo caption {
+    font-variant: small-caps;
+    text-align: left;
+    letter-spacing: 10px;
+    margin-bottom: 5px;
+}
+
+section.marzo th {
+    text-align: center;
+}
+
+section.marzo td {
+    width: 50px;
+    height: 40px;
+    font-size: 70%;
+    vertical-align: top;
+  }
+  
